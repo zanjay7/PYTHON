@@ -1,0 +1,15 @@
+x=[]
+flag=0
+num=int(input("enetr : "))
+for i in range(num):
+    li=int(input("Enter the ele: "))
+    x.append(li)
+spe=int(input("Enter the ele:"))
+a=tuple(x)
+for i in range(num):
+    if a[i]==spe:
+        flag=1
+        print("Index of the given element:",i)
+      
+if flag==0:
+    print("-1")

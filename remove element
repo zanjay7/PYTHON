@@ -1,0 +1,19 @@
+n=int(input("Enter the lenght of the list:"))
+list=[]
+l2=[]
+for i in range(n):
+    li=input("ENter the elements in the list:")
+    list.append(li)
+    
+s=input("Enter the element to remove:")
+
+for i in list:
+    if i!=s:
+        l2.append(i)
+print(l2)
+
+        
+            
+            
+            
+    
