@@ -1,0 +1,17 @@
+areac = lambda r : 3.14*r*r
+print("Area of Circle:")
+print(areac(3))
+
+areas = lambda a : a*a
+print("\nArea of Square:")
+print(areas(3))
+
+areat = lambda b,h : .5*b*h
+print("\nArea of Trinagle:")
+print(areat(3,6))
+
+arear = lambda a,b : a*b
+print("\nArea of Rectangle:")
+a=int(input("Enter the a:"))
+b=int(input("Enter the b:"))
+print(arear(a,b))
