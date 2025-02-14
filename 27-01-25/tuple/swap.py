@@ -10,3 +10,4 @@ tuple1=("apple","banana","mango","pappaya","cherry")
 # print(x)
 b=(tuple1[-1],)+tuple1[1:-1]+(tuple1[0],)
 print(b)
+

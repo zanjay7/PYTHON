@@ -29,7 +29,7 @@ while True:
             print("!! The book not exists !!")
     elif choice == "4":
         isbn = input("Enter the ISBN number: ")
-        if isbn in book:  # Check if the book exists before deletion
+        if isbn in book:
             del book[isbn]
             print("!! The book is removed !!")
         else:

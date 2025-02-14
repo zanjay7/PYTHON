@@ -7,6 +7,6 @@ def is_palindrome(s):
         
     else:print("Not palindrome")
     
-s=input("Enter the string")
+# s=input("Enter the string: ")
 
-is_palindrome(s)
+# is_palindrome(s)

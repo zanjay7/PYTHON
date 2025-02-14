@@ -1,4 +1,4 @@
 x={10, 20, 30, 40}
-for i in x:
+for i in range(len(x)):
     x.pop()
 print(x)
